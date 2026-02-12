@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-02-12T15:35:08.181011+00:00",
+  "skipped": [],
+  "skipped_total": 0,
+  "source": {
+    "mtime": 1770889103.263205,
+    "path": "TLSA00615.out",
+    "size_bytes": 252746709
+  },
+  "tables": {
+    "EPOCHSAT": {
+      "path": ".glabdash_cache/EPOCHSAT.csv",
+      "rows": 34556
+    },
+    "FILTER": {
+      "path": ".glabdash_cache/FILTER.csv",
+      "rows": 17278
+    },
+    "INFO": {
+      "path": ".glabdash_cache/INFO.csv",
+      "rows": 196
+    },
+    "INPUT": {
+      "path": ".glabdash_cache/INPUT.csv",
+      "rows": 159605
+    },
+    "MEAS": {
+      "path": ".glabdash_cache/MEAS.csv",
+      "rows": 159605
+    },
+    "MODEL": {
+      "path": ".glabdash_cache/MODEL.csv",
+      "rows": 158604
+    },
+    "OUTPUT": {
+      "path": ".glabdash_cache/OUTPUT.csv",
+      "rows": 17278
+    },
+    "POSTFIT": {
+      "path": ".glabdash_cache/POSTFIT.csv",
+      "rows": 158360
+    },
+    "PREFIT": {
+      "path": ".glabdash_cache/PREFIT.csv",
+      "rows": 158360
+    },
+    "SATSEL": {
+      "path": ".glabdash_cache/SATSEL.csv",
+      "rows": 159625
+    }
+  }
+}

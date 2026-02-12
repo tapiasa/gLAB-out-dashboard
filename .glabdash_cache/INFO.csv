@@ -1,0 +1,197 @@
+line_no,text
+1,"gLAB version v6.0.0, built on Nov 22 2024 22:25:59"
+2,Processing with broadcast products
+3,RINEX observation input file: /Users/tapiasa/PROJECTS/GNSS-ACADEMY/PRODUCT/JSNP/JSNP11/WP0/WP0_RCVR_ANALYSIS/SCEN/SCEN_TLSA00615-GPSL1-SPP/INP/OBS/TLSA0060.15O
+4,RINEX navigation message input file: /Users/tapiasa/PROJECTS/GNSS-ACADEMY/PRODUCT/JSNP/JSNP11/WP0/WP0_RCVR_ANALYSIS/SCEN/SCEN_TLSA00615-GPSL1-SPP/INP/NAV/TLSA0060.15N
+5,File for Klobuchar corrections same as for navigation
+6,File for differential DCB corrections same as for navigation
+7,"Forcing disable of all Galileo satellites, as no navigation messages are available"
+8,"Forcing disable of all GLONASS satellites, as no navigation messages are available"
+9,"Forcing disable of all BDS     satellites, as no navigation messages are available"
+10,"Forcing disable of all QZSS    satellites, as no navigation messages are available"
+11,"Forcing disable of all IRNSS   satellites, as no navigation messages are available"
+12,"Forcing disable of GPS ISC L1C/A DCB, as no CNAV navigation messages for GPS are available"
+13,"Forcing disable of GPS ISC L2C DCB, as no CNAV navigation messages for GPS are available"
+14,"Forcing disable of GPS ISC L5I5 DCB, as no CNAV navigation messages for GPS are available"
+15,"Forcing disable of GPS ISC L5Q5 DCB, as no CNAV navigation messages for GPS are available"
+16,WARNING GPS Receiver type for reference station is unknown (no GPS_Receiver_type file provided). Assuming nominal behaviour
+17,INPUT RINEX navigation file version for orbit and clock data: 2.11
+18,INPUT RINEX observation file version: 2.11
+19,INPUT RINEX observation file interval: 1 (seconds)
+20,INPUT Station marker: TLSA
+21,INPUT Antenna type:   CHELTON ANTENNAS
+22,INPUT GPS Receiver type:  THALES AVIONICS [Unknown]
+23,PREPROCESSING Prealign carrier phase measurements:  ON
+24,PREPROCESSING Check for uncorrected pseudorange jumps in carrier phase measurements:  ON
+25,PREPROCESSING Decimation: 5 (seconds)
+26,PREPROCESSING Automatic smoothing selected: OFF
+27,PREPROCESSING Excluded satellites:  E01-36 R01-32 S01-58 C01-63 J01-10 I01-14
+28,PREPROCESSING Usable frequencies [GPS]:     F1 (L1)    F2 (L2)   
+29,PREPROCESSING Usable frequencies [Galileo]: F1 (E1)   
+30,PREPROCESSING Usable frequencies [GLONASS]: No frequencies available in RINEX observation file and not unselected
+31,PREPROCESSING Usable frequencies [SBAS]:    F1 (L1)   
+32,PREPROCESSING Usable frequencies [BeiDou]:  F1 (B1)    F2 (B1-2) 
+33,PREPROCESSING Usable frequencies [QZSS]:    F1 (L1)    F2 (L2)   
+34,PREPROCESSING Usable frequencies [IRNSS]:   No frequencies available in RINEX observation file
+35,PREPROCESSING Measurement frequency filling order 1|2 G01-32
+36,PREPROCESSING Excluded frequencies by user: None
+37,PREPROCESSING Elevation mask: 5.00 (degrees)
+38,PREPROCESSING Discard satellites under eclipse conditions: OFF
+39,PREPROCESSING Receiver a priori position (metres):   4637952.2918    121207.9320   4362375.7638  [SET]
+40,PREPROCESSING Discard measurements not available in satellite blocks: OFF
+41,PREPROCESSING Discard unpaired measurements in rover RINEX observation file: OFF
+42,PREPROCESSING Rover priority list for frequency 1:  G01-32  C1C | L1P 
+43,PREPROCESSING Rover priority list for frequency 2:  G01-32  C2P | L2P 
+44,PREPROCESSING N-consecutive: ON  [Min: 3 samples]
+45,PREPROCESSING Cycle-slip Data Gap: OFF (all cycle-slip detectors disabled)
+46,PREPROCESSING Cycle-slip LLI:      OFF
+47,PREPROCESSING Cycle-slip SF:       OFF
+48,PREPROCESSING Cycle-slip MW:       OFF
+49,PREPROCESSING Cycle-slip LI:       OFF
+50,PREPROCESSING Cycle-slip IGF:      OFF
+51,PREPROCESSING Minimum SNR Mask: OFF
+52,PREPROCESSING Maximum SNR Mask: OFF
+53,MODELLING Satellite clock offset correction:  ON
+54,MODELLING Consider satellite movement during signal flight time:  ON
+55,MODELLING Consider Earth rotation during signal flight time:  ON
+56,MODELLING Receiver Antenna Phase Center Offset (PCO): GPS F1 F2  0.00000  0.00000  0.00000 (metres)
+57,MODELLING Receiver Antenna Phase Center variation correction: OFF
+58,MODELLING Satellite mass centre to Antenna Phase Centre (APC) correction: OFF
+59,MODELLING Satellite mass centre to Antenna Phase Centre variation correction:  OFF
+60,MODELLING Receiver Antenna Reference Point (ARP):  0.0000  0.0000  0.0000 (metres)
+61,MODELLING Relativistic clock correction:  ON
+62,MODELLING Ionosphere model: Klobuchar
+63,MODELLING Troposphere model:  ON
+64,MODELLING Troposphere model: UNB-3 Nominal
+65,MODELLING Troposphere model: Simple Mapping
+66,MODELLING GPS P1-C1 DCB model: Flexible
+67,MODELLING GPS P1-P2 DCB model: RINEX
+68,MODELLING GPS L1C/A ISC DCB model: OFF
+69,MODELLING GPS L1Cp  ISC DCB model: OFF
+70,MODELLING GPS L1Cd  ISC DCB model: OFF
+71,MODELLING GPS L2C   ISC DCB model: OFF
+72,MODELLING GPS L5I5  ISC DCB model: OFF
+73,MODELLING GPS L5Q5  ISC DCB model: OFF
+74,MODELLING Compute Dual Frequency DCBs [GPS]:     RINEX
+75,MODELLING Wind up correction: OFF
+76,MODELLING Solid tides correction: OFF
+77,MODELLING Relativistic path range correction: OFF
+78,"MODELLING Broadcast message type order for orbits, clocks and DCB data [GPS]:     LNAV"
+79,MODELLING Check transmission time of navigation message is behind current epoch: ON
+80,MODELLING Use satellite 'SV Health' flag of navigation message: Use only healthy satellites
+81,MODELLING Model all RINEX observation file measurements: OFF
+82,FILTER Meas: G01-32 Pseudorange   (frequency 1) StdDev: 1 (metres)
+83,FILTER Number of epochs of continuous code smoothing before steady-state operation: 0
+84,FILTER Median prefit outlier detector threshold: 40.00 (metres)
+85,FILTER HDOP Filter: OFF
+86,FILTER PDOP Filter: OFF
+87,FILTER GDOP Filter: OFF
+88,FILTER Carrierphase is used:  NO
+89,FILTER Estimate troposphere: OFF
+90,FILTER Forward Only Processing
+91,"FILTER Parameters [Phi,Q,P0] Position:            0  1.00e+08 (m^2)  1.00e+08 (m^2)"
+92,"FILTER Parameters [Phi,Q,P0] Clock:               0  9.00e+10 (m^2)  9.00e+10 (m^2)"
+93,"FILTER Parameters [Phi,Q,P0] Inter-System Clocks: 0  9.00e+10 (m^2)  9.00e+10 (m^2)"
+94,"FILTER Reference clock constellation priority list: GPS, Galileo, GLONASS, BeiDou, QZSS"
+95,FILTER Allow changing reference clock in solution computation: ON
+96,FILTER Inter-system clock bias source (All combinations): Estimate
+97,OUTPUT Satellite Velocity:     ITRF
+98,PRINT INFO:            ON 
+99,PRINT CS:              ON 
+100,PRINT SFCSDATA:        ON 
+101,PRINT MWCSDATA:        ON 
+102,PRINT LICSDATA:        ON 
+103,PRINT IGFCSDATA:       ON 
+104,PRINT USERADDEDERROR:  ON 
+105,PRINT INPUT:           ON 
+106,PRINT MEAS :           ON 
+107,PRINT MODEL:           ON 
+108,PRINT EPOCHSAT:        ON 
+109,PRINT SATSEL:          ON 
+110,PRINT PREFIT:          ON 
+111,PRINT POSTFIT:         ON 
+112,PRINT FILTER:          ON 
+113,PRINT OUTPUT:          ON 
+114,PRINT SATDIFF:         ON 
+115,PRINT SATSTAT:         ON 
+116,PRINT SATSTATTOT:      ON 
+117,PRINT SBASCORR:        ON 
+118,PRINT SBASVAR:         ON 
+119,PRINT SBASIONO:        ON 
+120,PRINT SBASOUT:         ON 
+121,PRINT SBASUNSEL:       ON 
+122,PRINT SBASDFMCCORR:    ON 
+123,PRINT SBASDFMCVAR:     ON 
+124,PRINT SBASDFMCUNSEL:   ON 
+125,PRINT SBASUNUSED:      ON 
+126,PRINT DGNSS:           ON 
+127,PRINT DGNSSUNSED:      OFF
+128,PRINT SUMMARY:         ON 
+129,PRINT V5 Format:       OFF
+130,PRINT Clock in ns:     OFF
+171,2015 006     0.00 00:00:00.00 Not enough satellites (0 available) to compute solution
+493241,Data gap of 1 epoch in rover observation file at 2015 006 40951.00 / 2015 01 06 11:22:31.0
+1023404,--------------------- SPP Summary ---------------------
+1023405,First epoch of summary: 06/01/2015 00:00:00.00 / 2015 006     0.00 / 1826 172800.00
+1023406,Last  epoch of summary: 06/01/2015 23:59:59.00 / 2015 006 86399.00 / 1826 259199.00
+1023407,Total epochs processed: 17279
+1023408,Total epochs processed with solution: 17278 ( 99.994% )
+1023409,Total epochs skipped due to less than 4 valid satellites available: 1 ( 0.006% )
+1023410,Total epochs skipped due to singular geometry matrix: 0 ( 0.000% )
+1023411,Total epochs skipped due to reference constellation not available: 0 ( 0.000% )
+1023412,Total epochs skipped (any reason): 1 ( 0.006% )
+1023413,Total epochs missing in observation file (during summary period and not decimated):   1
+1023414,Total epochs missing in observation file (during summary period and decimated):       0
+1023415,Total epochs missing in observation file (during summary period):                     1
+1023416,Total epochs missing in observation file (all the file):                              1
+1023417,Number of data gaps in observation file (during summary period):   1
+1023418,Number of data gaps in observation file (all the file):            1
+1023419,Maximum data gap size in observation file (during summary period):    1 at epoch 06/01/2015 11:22:31.00 / 2015 006 40951.00 / 1826 213751.00
+1023420,Maximum data gap size in observation file (all the file):             1 at epoch 06/01/2015 11:22:31.00 / 2015 006 40951.00 / 1826 213751.00
+1023421,Time To First Fix: 5 seconds (2 epochs) at epoch 06/01/2015 00:00:05.00 / 2015 006     5.00 / 1826 172805.00
+1023422,Constellations     used 50 Percentile:  1 |  95 Percentile:  1 | Mean:  1.00
+1023423,Constellations not used 50 Percentile:  0 |  95 Percentile:  0 | Mean:  0.00
+1023424,Number of epochs with constellations used: GPS 17278 ( 100% )
+1023425,Number of epochs with constellations not used: 0 ( 0% )
+1023426,Constellations used as reference clock: GPS 17278 ( 100% )
+1023427,Satellites used (all constellations) 50 Percentile:  9 |  95 Percentile:  7 | Mean:  9.17
+1023428,Satellites used (GPS)                50 Percentile:  9 |  95 Percentile:  7 | Mean:  9.17
+1023429,Satellites not used (all constellations) 50 Percentile:  0 |  95 Percentile:  1 | Mean:  0.07
+1023430,Satellites not used (GPS)                50 Percentile:  0 |  95 Percentile:  1 | Mean:  0.07
+1023431,Minimum satellites used (all constellations)  5 (G 5) at epoch 06/01/2015 03:22:05.00 / 2015 006 12125.00 / 1826 184925.00
+1023432,Minimum satellites used (GPS)                 5       at epoch 06/01/2015 03:22:05.00 / 2015 006 12125.00 / 1826 184925.00
+1023433,Maximum satellites used (all constellations) 12 (G 12) at epoch 06/01/2015 12:16:50.00 / 2015 006 44210.00 / 1826 217010.00
+1023434,Maximum satellites used (GPS)                12        at epoch 06/01/2015 12:16:50.00 / 2015 006 44210.00 / 1826 217010.00
+1023435,Minimum satellites not used (all constellations)  0   at epoch 06/01/2015 23:24:05.00 / 2015 006 84245.00 / 1826 257045.00
+1023436,Minimum satellites not used (GPS)                 0   at epoch 06/01/2015 23:24:05.00 / 2015 006 84245.00 / 1826 257045.00
+1023437,Maximum satellites not used (all constellations)  2 (G 2) at epoch 06/01/2015 23:58:30.00 / 2015 006 86310.00 / 1826 259110.00
+1023438,Maximum satellites not used (GPS)                 2       at epoch 06/01/2015 23:58:30.00 / 2015 006 86310.00 / 1826 259110.00
+1023439,PDOP  95 Percentile:   2.37
+1023440,GDOP  95 Percentile:   2.72
+1023441,TDOP  95 Percentile:   1.34
+1023442,HDOP  95 Percentile:   1.27
+1023443,VDOP  95 Percentile:   2.01
+1023444,Minimum PDOP   1.17 with 12 satellites (G 12) at epoch 06/01/2015 12:08:20.00 / 2015 006 43700.00 / 1826 216500.00
+1023445,Minimum GDOP   1.30 with 12 satellites (G 12) at epoch 06/01/2015 12:08:20.00 / 2015 006 43700.00 / 1826 216500.00
+1023446,Minimum TDOP   0.50 with 11 satellites (G 11) at epoch 06/01/2015 21:44:05.00 / 2015 006 32515.00 / 1826 251045.00
+1023447,Minimum HDOP   0.74 with 12 satellites (G 12) at epoch 06/01/2015 07:08:35.00 / 2015 006 25715.00 / 1826 198515.00
+1023448,Minimum VDOP   0.90 with 12 satellites (G 12) at epoch 06/01/2015 09:01:55.00 / 2015 006 32515.00 / 1826 205315.00
+1023449,Maximum PDOP   2.92 with  6 satellites (G  6) at epoch 06/01/2015 23:58:10.00 / 2015 006 86290.00 / 1826 259090.00
+1023450,Maximum GDOP   3.44 with  6 satellites (G  6) at epoch 06/01/2015 23:58:10.00 / 2015 006 86290.00 / 1826 259090.00
+1023451,Maximum TDOP   1.83 with  6 satellites (G  6) at epoch 06/01/2015 23:58:10.00 / 2015 006 12125.00 / 1826 259090.00
+1023452,Maximum HDOP   1.67 with  6 satellites (G  6) at epoch 06/01/2015 23:59:55.00 / 2015 006 86395.00 / 1826 259195.00
+1023453,Maximum VDOP   2.41 with  5 satellites (G  5) at epoch 06/01/2015 03:22:05.00 / 2015 006 12125.00 / 1826 184925.00
+1023454,First epoch of summary for computing positioning error percentiles: 06/01/2015 00:00:05.00 / 2015 006     5.00 / 1826 172805.00
+1023455,Last  epoch of summary for computing positioning error percentiles: 06/01/2015 23:59:55.00 / 2015 006 86395.00 / 1826 259195.00
+1023456,Horizontal  95 Positioning Error Percentile:   2.11 metres
+1023457,Vertical    95 Positioning Error Percentile:   4.99 metres
+1023458,North       95 Positioning Error Percentile:   1.98 metres
+1023459,East        95 Positioning Error Percentile:   1.19 metres
+1023460,3D          95 Positioning Error Percentile:   5.16 metres
+1023461,Maximum Horizontal Positioning Error:   3.83 metres with  7 satellites (G  7) at epoch 06/01/2015 04:18:15.00 / 2015 006 15495.00 / 1826 188295.00
+1023462,Maximum Vertical   Positioning Error:   7.57 metres with  9 satellites (G  9) at epoch 06/01/2015 16:37:20.00 / 2015 006 59840.00 / 1826 232640.00
+1023463,Maximum North      Positioning Error:   3.70 metres with  7 satellites (G  7) at epoch 06/01/2015 04:18:15.00 / 2015 006 15495.00 / 1826 188295.00
+1023464,Maximum East       Positioning Error:   2.86 metres with  9 satellites (G  9) at epoch 06/01/2015 01:28:35.00 / 2015 006  5315.00 / 1826 178115.00
+1023465,Maximum 3D         Positioning Error:   7.68 metres with  9 satellites (G  9) at epoch 06/01/2015 16:37:20.00 / 2015 006 59840.00 / 1826 232640.00
+1023466,Total Processing time: 4.969 seconds [User time: 4.631 seconds (93.196%) Kernel time: 0.338 seconds (6.804%)]
+1023467,(2)_Station: tlsa (4)_Lon:   1.49702328 (6)_Lat:   43.42856673 (8)_Height:  253.4550 (10)_Day:  6 (12)_Month:  1 (14)_Year: 2015 (16)_DoY:   6 (18)_GPSWeek: 1826 (20)_DoW: 2 (22)_Percentile:  95 (24)_HPE_Percentile:   2.11 (26)_VPE_Percentile:   4.99 (28)_NPE_Percentile:   1.98 (30)_EPE_Percentile:   1.19 (32)_3DPE_Percentile:   5.16 (34)_MaxHPE:   3.83 (36)_MaxVPE:   7.57 (38)_MaxNPE:   3.70 (40)_MaxEPE:   2.86 (42)_Max3DPE:   7.68 (44)_Avail%:  99.994 (46)_PDOP_Percentile:   2.37 (48)_Min_PDOP:   1.17 (50)_Max_PDOP:   2.92 (52)_GDOP_Percentile:   2.72 (54)_Min_GDOP:   1.30 (56)_Max_GDOP:   3.44 (58)_TDOP_Percentile:   1.34 (60)_Min_TDOP:   0.50 (62)_Max_TDOP:   1.83 (64)_HDOP_Percentile:   1.27 (66)_Min_HDOP:   0.74 (68)_Max_HDOP:   1.67 (70)_VDOP_Percentile:   2.01 (72)_Min_VDOP:   0.90 (74)_Max_VDOP:   2.41 (76)_Sat_used_All_Const_Percentile: 9 (78)_Sat_not_used_All_Const_Percentile: 0 (80)_Min_sat_used_All_Const: 5 (82)_Min_sat_not_used_All_Const: 0 (84)_Max_sat_used_All_Const: 12 (86)_Max_sat_not_used_All_Const: 2 (88)_Epochs_processed: 17279 (90)_Epochs_with_solution: 17278 (92)_Epochs_with_solution_reference_file: 17278 (94)_Epochs_omitted_no_data_reference_file: 0 (96)_Epochs_skipped_no_data_reference_file: 0 (98)_Epochs_no_satellites: 1 (100)_Epochs_singular_matrix: 0 (102)_Epochs_No_Reference_GNSS: 0 (104)_Epochs_Over_HDOPorPDOP: 0 (106)_Epochs_Over_HDOP: 0 (108)_Epochs_Over_PDOP: 0 (110)_Epochs_Over_GDOP: 0 (112)_Total_Epochs_skipped: 1 (114)_Epochs_missing_Sum:   1 (116)_Epochs_missing_All_file:   1 (118)_Num_DataGaps_Sum:   1 (120)_Num_DataGaps_All_file:   1 (122)_MaxSize_DataGap_Sum:   1 (124)_MaxSize_DataGap_All_file:   1 (126)_Station_Network_Name: Other (128)_Time_To_First_Fix: 5 (130)_Epochs_First_Fix: 2 (132)_Processing_time:  4.969 
